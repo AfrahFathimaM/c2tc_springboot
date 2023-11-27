@@ -29,5 +29,25 @@ private AdminRepository repo;
 	{
 	repo.deleteById(id);
 	}
+	public void setThrowException(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+	public boolean isSaveCalled() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	public Object getSavedAdmin() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public boolean isDeleteCalled() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	public Object getDeletedAdminId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
 

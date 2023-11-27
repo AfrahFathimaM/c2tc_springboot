@@ -1,3 +1,4 @@
+
 package com.c2tc.admin;
 import java.util.*;
 import org.springframework.beans.factory.annotation.*;
@@ -30,16 +31,12 @@ public class AdminController {
 	}
 	}
 	
-	
-	
 	//Create operation
 	@PostMapping("/admin")
 	public void add(@RequestBody Admin admin)
 	{
 	service.save(admin);
 	}
-	
-	
 	
 	//Update 
 	@PutMapping("/admin/{id}")
@@ -57,8 +54,6 @@ public class AdminController {
 	}
 	}
 	
-	
-	
 	// Delete 
 	@DeleteMapping("/admin/{id}")
 			
@@ -66,5 +61,6 @@ public class AdminController {
 	{
 	service.delete(id);
 	}
+	
 	}
 
