@@ -1,0 +1,28 @@
+.about-lulu-mall-container {
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 50px; /* Increase padding for better spacing */
+    text-align: center;
+  }
+  
+  .about-lulu-mall-container h1 {
+    font-size: 4em;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+  }
+  
+  .about-lulu-mall-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-lulu-mall-container h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-shadow: 2px 1px;
+    color: #021a49; /* Set a gold color for section headings */
+  }
